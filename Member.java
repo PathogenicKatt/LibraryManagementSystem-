@@ -16,7 +16,7 @@ public class Member {
     {
         if(name==null || name.trim().isEmpty())
         {
-            throw new InvalidDataException("Name cannot be null or empty");
+            throw new InvalidDataException("Name cannot be null or empty")
         }
         this.name=name;
     }
