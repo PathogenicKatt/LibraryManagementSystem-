@@ -29,9 +29,9 @@ public class Member {
         }
         this.name=name;
     }
-    public int getMember_ID()
+    public int getMember_ID() //the main reason for the member id is to track every member, which is why is i maded it final
     {
-        return memberId;
+        return memberId;//returns the member id for the toString method
     }
     public String toString()
     {
