@@ -2,6 +2,7 @@ public class Member {
     //private -> only accessible within that class
     /*this -> it is a keyword used to specify the current object, the instance of a class basically in comes handy when 
     you have variables of the same name*/
+    
     private static int memberCounter=1; //used to indicate that particular member belongs to that class itself rather than 
     //as the instance of the class. Also they can be called class variables
     private final int memberId; //makes it final because we don't want it to be changed meaning it's for that member
