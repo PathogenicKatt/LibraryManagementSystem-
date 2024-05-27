@@ -4,16 +4,17 @@ class Book extends LibraryItem implements Borrowable, Comparable<Book> {
 
     public Book(String id, String title, String author) {
         super(id, title);
-        this.author = author;
+        setAuthor(author);
         this.isBorrowed = false;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
+   
     public void setAuthor(String author) {
         this.author = author;
+    }
+    
+    public String getAuthor() {
+        return author;
     }
 
     @Override
