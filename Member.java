@@ -40,7 +40,7 @@ public class Member {
                 ", name="+name+ '\''+'}';
     }
 
-    public static void main(String[]args)
+    /*public static void main(String[]args)
     {
         Member member1,member2;
         //whenever you create an exception u need to use the try catch block 
@@ -56,4 +56,5 @@ public class Member {
             System.out.println(e);
         }
     }
+    */
 }
