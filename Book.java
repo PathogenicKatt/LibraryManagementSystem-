@@ -19,7 +19,7 @@ class Book extends LibraryItem implements Borrowable, Comparable<Book> {
 
     @Override
     public void borrow() {
-        if (!isBorrowed) {
+        if (!isBorrowed) { 
             isBorrowed = true;
         } else {
             throw new IllegalStateException("Book is already borrowed.");

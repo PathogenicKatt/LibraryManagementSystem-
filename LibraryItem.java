@@ -1,4 +1,4 @@
-import java.io.Serializable;
+import java.io.Serializable; //signals JVM that the instance of the class can be serialized
 abstract class LibraryItem implements Serializable {
     private String id;
     private String title;
